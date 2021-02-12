@@ -1,0 +1,16 @@
+[package]
+name = "sensors"
+version = "0.1.0"
+authors = ["Arsh Singh <contact@arsh.me>"]
+edition = "2018"
+
+[dependencies]
+embedded-hal = "0.2.4"
+nb = "1.0.0"
+cortex-m = "0.7.1"
+cortex-m-rt = "0.6.13"
+panic-halt = "0.2.0"
+
+[dependencies.stm32f1xx-hal]
+version = "0.7.0"
+features = ["rt", "stm32f103", "medium"]
